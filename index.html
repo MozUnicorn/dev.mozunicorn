@@ -25,8 +25,50 @@
         </div>
       </nav>
 
+      <!-- Carousel -->
+      <div class="carousel">
+        <a class="carousel-item" href="#one!"><img src="images/12549011_1234357693246650_6749268242761687334_n.jpg"></a>
+        <a class="carousel-item" href="#two!"><img src="images/9593625850_3f17e87199_c.jpg"></a>
+        <a class="carousel-item" href="#three!"><img src="images/IMAG2711.jpg"></a>
+        <a class="carousel-item" href="#four!"><img src="images/DSCN6382.JPG"></a>
+        <a class="carousel-item" href="#five!"><img src="images/img_0086.jpg"></a>
+      </div>
+
+        <!-- Footer content goes here  -->
+      <footer class="page-footer teal darken-3">
+           <div class="container">
+             <div class="row">
+               <div class="col l6 s12">
+                 <h5 class="white-text">Unicorn Club</h5>
+                 <p class="grey-text text-lighten-4">club info</p>
+               </div>
+               <div class="col l4 offset-l2 s12">
+                 <h5 class="white-text">Links</h5>
+                 <ul>
+                   <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/groups/clubunicorn" target="_blank">Facebook</a></li>
+                   <li><a class="grey-text text-lighten-3" href="https://github.com/mozunicorn" target="_blank">Github</a></li>
+                   <li><a class="grey-text text-lighten-3" href="http://dev-jnu.slack.com">Slack</a></li>
+                 </ul>
+               </div>
+             </div>
+           </div>
+           <div class="footer-copyright">
+             <div class="container">
+             © 2016 Copyright Unicorn Club
+             <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+             </div>
+           </div>
+        </footer>
+
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script>
+
+        $(document).ready(function(){
+            $('.carousel').carousel();
+        });
+
+      </script>
     </body>
   </html>
